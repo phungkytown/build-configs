@@ -9,5 +9,7 @@
 // Configuration settings file format documentation can be found at:
 // https://help.apple.com/xcode/#/dev745c5c974
 
-CONFIGURATION_NAME = QA
-CONFIGURATION_SUFFIX = .qa
+CONFIG_NAME = QA
+CONFIG_BUNDLE_ID_SUFFIX = .qa
+CONFIG_PRODUCT_NAME_SUFFIX = -QA
+

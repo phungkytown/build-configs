@@ -9,5 +9,6 @@
 // Configuration settings file format documentation can be found at:
 // https://help.apple.com/xcode/#/dev745c5c974
 
-CONFIGURATION_NAME = Production
-CONFIGURATION_SUFFIX = .prod
+CONFIG_NAME = Production
+CONFIG_BUNDLE_ID_SUFFIX = .prod
+CONFIG_PRODUCT_NAME_SUFFIX = -Prod

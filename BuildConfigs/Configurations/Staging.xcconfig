@@ -9,5 +9,6 @@
 // Configuration settings file format documentation can be found at:
 // https://help.apple.com/xcode/#/dev745c5c974
 
-CONFIGURATION_NAME = Staging
-CONFIGURATION_SUFFIX = .staging
+CONFIG_NAME = Staging
+CONFIG_BUNDLE_ID_SUFFIX = .staging
+CONFIG_PRODUCT_NAME_SUFFIX = -Staging

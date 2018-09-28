@@ -9,5 +9,6 @@
 // Configuration settings file format documentation can be found at:
 // https://help.apple.com/xcode/#/dev745c5c974
 
-CONFIGURATION_NAME = Release
-CONFIGURATION_SUFFIX = 
+CONFIG_NAME = Release
+CONFIG_BUNDLE_ID_SUFFIX =
+CONFIG_PRODUCT_NAME_SUFFIX =
