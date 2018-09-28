@@ -1,0 +1,15 @@
+//
+//  Dev.xcconfig
+//  BuildConfigs
+//
+//  Created by Hai Phung on 9/28/18.
+//  Copyright © 2018 Hai Phung. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+CONFIGURATION_NAME = Development
+CONFIGURATION_SUFFIX = .dev
+
+
