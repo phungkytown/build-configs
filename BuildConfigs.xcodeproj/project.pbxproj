@@ -878,7 +878,7 @@
 				2CED93A6215E6F7400DBE3AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = "Distribution-Staging";
+			defaultConfigurationName = "Distribution-QA";
 		};
 		2CED938D215DDC9100DBE3AA /* Build configuration list for PBXNativeTarget "BuildConfigs" */ = {
 			isa = XCConfigurationList;
@@ -894,7 +894,7 @@
 				2CED93A7215E6F7400DBE3AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = "Distribution-Staging";
+			defaultConfigurationName = "Distribution-QA";
 		};
 /* End XCConfigurationList section */
 	};
