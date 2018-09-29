@@ -12,6 +12,7 @@
 		2CED9384215DDC9100DBE3AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CED9382215DDC9100DBE3AA /* Main.storyboard */; };
 		2CED9386215DDC9100DBE3AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CED9385215DDC9100DBE3AA /* Assets.xcassets */; };
 		2CED9389215DDC9100DBE3AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CED9387215DDC9100DBE3AA /* LaunchScreen.storyboard */; };
+		2CED93BE215F284900DBE3AA /* Environments.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2CED93BD215F284900DBE3AA /* Environments.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		2CED93B7215E7DAD00DBE3AA /* Staging.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Staging.xcconfig; sourceTree = "<group>"; };
 		2CED93B8215E7DB400DBE3AA /* Prod.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Prod.xcconfig; sourceTree = "<group>"; };
 		2CED93B9215E7DBD00DBE3AA /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		2CED93BD215F284900DBE3AA /* Environments.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Environments.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				2CED9385215DDC9100DBE3AA /* Assets.xcassets */,
 				2CED9387215DDC9100DBE3AA /* LaunchScreen.storyboard */,
 				2CED938A215DDC9100DBE3AA /* Info.plist */,
+				2CED93BD215F284900DBE3AA /* Environments.plist */,
 				2CED93BA215E807E00DBE3AA /* Configurations */,
 			);
 			path = BuildConfigs;
@@ -140,6 +143,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CED93BE215F284900DBE3AA /* Environments.plist in Resources */,
 				2CED9389215DDC9100DBE3AA /* LaunchScreen.storyboard in Resources */,
 				2CED9386215DDC9100DBE3AA /* Assets.xcassets in Resources */,
 				2CED9384215DDC9100DBE3AA /* Main.storyboard in Resources */,
@@ -182,6 +186,7 @@
 /* Begin XCBuildConfiguration section */
 		2CED938B215DDC9100DBE3AA /* Debug-Dev */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CED93B4215E794D00DBE3AA /* Dev.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -243,6 +248,7 @@
 		};
 		2CED938C215DDC9100DBE3AA /* Distribution-Dev */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CED93B4215E794D00DBE3AA /* Dev.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -298,7 +304,6 @@
 		};
 		2CED938E215DDC9100DBE3AA /* Debug-Dev */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2CED93B4215E794D00DBE3AA /* Dev.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon$(CONFIG_BUNDLE_ID_SUFFIX)";
 				CODE_SIGN_STYLE = Automatic;
@@ -316,7 +321,6 @@
 		};
 		2CED938F215DDC9100DBE3AA /* Distribution-Dev */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2CED93B4215E794D00DBE3AA /* Dev.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon$(CONFIG_BUNDLE_ID_SUFFIX)";
 				CODE_SIGN_STYLE = Automatic;
@@ -334,6 +338,7 @@
 		};
 		2CED93A6215E6F7400DBE3AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CED93B9215E7DBD00DBE3AA /* Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -389,7 +394,6 @@
 		};
 		2CED93A7215E6F7400DBE3AA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2CED93B9215E7DBD00DBE3AA /* Release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon$(CONFIG_BUNDLE_ID_SUFFIX)";
 				CODE_SIGN_STYLE = Automatic;
@@ -407,6 +411,7 @@
 		};
 		2CED93A8215E6F9F00DBE3AA /* Debug-QA */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CED93B6215E7DA200DBE3AA /* QA.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -468,7 +473,6 @@
 		};
 		2CED93A9215E6F9F00DBE3AA /* Debug-QA */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2CED93B6215E7DA200DBE3AA /* QA.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon$(CONFIG_BUNDLE_ID_SUFFIX)";
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +490,7 @@
 		};
 		2CED93AA215E6FA300DBE3AA /* Debug-Staging */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CED93B7215E7DAD00DBE3AA /* Staging.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -547,7 +552,6 @@
 		};
 		2CED93AB215E6FA300DBE3AA /* Debug-Staging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2CED93B7215E7DAD00DBE3AA /* Staging.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon$(CONFIG_BUNDLE_ID_SUFFIX)";
 				CODE_SIGN_STYLE = Automatic;
@@ -565,6 +569,7 @@
 		};
 		2CED93AC215E6FA700DBE3AA /* Debug-Prod */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CED93B8215E7DB400DBE3AA /* Prod.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -626,7 +631,6 @@
 		};
 		2CED93AD215E6FA700DBE3AA /* Debug-Prod */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2CED93B8215E7DB400DBE3AA /* Prod.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon$(CONFIG_BUNDLE_ID_SUFFIX)";
 				CODE_SIGN_STYLE = Automatic;
@@ -644,6 +648,7 @@
 		};
 		2CED93AE215E6FD400DBE3AA /* Distribution-QA */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CED93B6215E7DA200DBE3AA /* QA.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -699,7 +704,6 @@
 		};
 		2CED93AF215E6FD400DBE3AA /* Distribution-QA */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2CED93B6215E7DA200DBE3AA /* QA.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon$(CONFIG_BUNDLE_ID_SUFFIX)";
 				CODE_SIGN_STYLE = Automatic;
@@ -717,6 +721,7 @@
 		};
 		2CED93B0215E6FD700DBE3AA /* Distribution-Staging */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CED93B7215E7DAD00DBE3AA /* Staging.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -772,7 +777,6 @@
 		};
 		2CED93B1215E6FD700DBE3AA /* Distribution-Staging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2CED93B7215E7DAD00DBE3AA /* Staging.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon$(CONFIG_BUNDLE_ID_SUFFIX)";
 				CODE_SIGN_STYLE = Automatic;
@@ -790,6 +794,7 @@
 		};
 		2CED93B2215E6FD900DBE3AA /* Distribution-Prod */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CED93B8215E7DB400DBE3AA /* Prod.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -845,7 +850,6 @@
 		};
 		2CED93B3215E6FD900DBE3AA /* Distribution-Prod */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2CED93B8215E7DB400DBE3AA /* Prod.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon$(CONFIG_BUNDLE_ID_SUFFIX)";
 				CODE_SIGN_STYLE = Automatic;

@@ -10,6 +10,4 @@
 // https://help.apple.com/xcode/#/dev745c5c974
 
 CONFIG_BUNDLE_ID_SUFFIX = .dev
-CONFIG_PRODUCT_NAME_SUFFIX = -Dev
-
-ENVIRONMENT_NAME = Development
+CONFIG_SERVER_ENVIRONMENT = Development

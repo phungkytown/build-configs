@@ -10,6 +10,4 @@
 // https://help.apple.com/xcode/#/dev745c5c974
 
 CONFIG_BUNDLE_ID_SUFFIX =
-CONFIG_PRODUCT_NAME_SUFFIX =
-
-ENVIRONMENT_NAME = Production
+CONFIG_SERVER_ENVIRONMENT = Production
