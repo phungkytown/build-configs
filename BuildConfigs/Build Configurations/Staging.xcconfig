@@ -1,5 +1,5 @@
 //
-//  Release.xcconfig
+//  Staging.xcconfig
 //  BuildConfigs
 //
 //  Created by Hai Phung on 9/28/18.
@@ -9,5 +9,5 @@
 // Configuration settings file format documentation can be found at:
 // https://help.apple.com/xcode/#/dev745c5c974
 
-CONFIG_BUNDLE_ID_SUFFIX =
-CONFIG_SERVER_ENVIRONMENT = Production
+BUNDLE_IDENTIFIER_SUFFIX = .staging
+SERVER_ENVIRONMENT = Staging

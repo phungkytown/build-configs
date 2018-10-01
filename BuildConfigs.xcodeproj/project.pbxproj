@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C3D1EA221615870002D8167 /* Environment-Dev.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2C3D1EA121615870002D8167 /* Environment-Dev.plist */; };
+		2C3D1EA421615975002D8167 /* Environment-QA.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2C3D1EA321615975002D8167 /* Environment-QA.plist */; };
+		2C3D1EA6216159C6002D8167 /* Environment-Staging.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2C3D1EA5216159C6002D8167 /* Environment-Staging.plist */; };
+		2C3D1EA8216159F6002D8167 /* Environment-Prod.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2C3D1EA7216159F6002D8167 /* Environment-Prod.plist */; };
 		2CED937F215DDC9100DBE3AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CED937E215DDC9100DBE3AA /* AppDelegate.swift */; };
 		2CED9381215DDC9100DBE3AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CED9380215DDC9100DBE3AA /* ViewController.swift */; };
 		2CED9384215DDC9100DBE3AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CED9382215DDC9100DBE3AA /* Main.storyboard */; };
 		2CED9386215DDC9100DBE3AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CED9385215DDC9100DBE3AA /* Assets.xcassets */; };
 		2CED9389215DDC9100DBE3AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CED9387215DDC9100DBE3AA /* LaunchScreen.storyboard */; };
-		2CED93BE215F284900DBE3AA /* Environments.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2CED93BD215F284900DBE3AA /* Environments.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C3D1EA121615870002D8167 /* Environment-Dev.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Environment-Dev.plist"; sourceTree = "<group>"; };
+		2C3D1EA321615975002D8167 /* Environment-QA.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Environment-QA.plist"; sourceTree = "<group>"; };
+		2C3D1EA5216159C6002D8167 /* Environment-Staging.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Environment-Staging.plist"; sourceTree = "<group>"; };
+		2C3D1EA7216159F6002D8167 /* Environment-Prod.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Environment-Prod.plist"; sourceTree = "<group>"; };
 		2CED937B215DDC9100DBE3AA /* BuildConfigs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuildConfigs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CED937E215DDC9100DBE3AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CED9380215DDC9100DBE3AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -28,7 +35,6 @@
 		2CED93B7215E7DAD00DBE3AA /* Staging.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Staging.xcconfig; sourceTree = "<group>"; };
 		2CED93B8215E7DB400DBE3AA /* Prod.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Prod.xcconfig; sourceTree = "<group>"; };
 		2CED93B9215E7DBD00DBE3AA /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
-		2CED93BD215F284900DBE3AA /* Environments.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Environments.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +48,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C3D1EA921615A2E002D8167 /* Environments */ = {
+			isa = PBXGroup;
+			children = (
+				2C3D1EA121615870002D8167 /* Environment-Dev.plist */,
+				2C3D1EA321615975002D8167 /* Environment-QA.plist */,
+				2C3D1EA5216159C6002D8167 /* Environment-Staging.plist */,
+				2C3D1EA7216159F6002D8167 /* Environment-Prod.plist */,
+			);
+			name = Environments;
+			sourceTree = "<group>";
+		};
 		2CED9372215DDC9100DBE3AA = {
 			isa = PBXGroup;
 			children = (
@@ -67,13 +84,13 @@
 				2CED9385215DDC9100DBE3AA /* Assets.xcassets */,
 				2CED9387215DDC9100DBE3AA /* LaunchScreen.storyboard */,
 				2CED938A215DDC9100DBE3AA /* Info.plist */,
-				2CED93BD215F284900DBE3AA /* Environments.plist */,
-				2CED93BA215E807E00DBE3AA /* Configurations */,
+				2C3D1EA921615A2E002D8167 /* Environments */,
+				2CED93BA215E807E00DBE3AA /* Build Configurations */,
 			);
 			path = BuildConfigs;
 			sourceTree = "<group>";
 		};
-		2CED93BA215E807E00DBE3AA /* Configurations */ = {
+		2CED93BA215E807E00DBE3AA /* Build Configurations */ = {
 			isa = PBXGroup;
 			children = (
 				2CED93B4215E794D00DBE3AA /* Dev.xcconfig */,
@@ -82,7 +99,7 @@
 				2CED93B8215E7DB400DBE3AA /* Prod.xcconfig */,
 				2CED93B9215E7DBD00DBE3AA /* Release.xcconfig */,
 			);
-			path = Configurations;
+			path = "Build Configurations";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,10 +160,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CED93BE215F284900DBE3AA /* Environments.plist in Resources */,
 				2CED9389215DDC9100DBE3AA /* LaunchScreen.storyboard in Resources */,
 				2CED9386215DDC9100DBE3AA /* Assets.xcassets in Resources */,
+				2C3D1EA221615870002D8167 /* Environment-Dev.plist in Resources */,
 				2CED9384215DDC9100DBE3AA /* Main.storyboard in Resources */,
+				2C3D1EA6216159C6002D8167 /* Environment-Staging.plist in Resources */,
+				2C3D1EA8216159F6002D8167 /* Environment-Prod.plist in Resources */,
+				2C3D1EA421615975002D8167 /* Environment-QA.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +260,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -295,6 +316,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_SWIFT_FLAGS = "";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -385,6 +407,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_SWIFT_FLAGS = "";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -465,6 +488,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -544,6 +568,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -623,6 +648,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -695,6 +721,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_SWIFT_FLAGS = "";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -768,6 +795,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_SWIFT_FLAGS = "";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -841,6 +869,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_SWIFT_FLAGS = "";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
