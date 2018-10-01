@@ -327,14 +327,14 @@
 		2CED938E215DDC9100DBE3AA /* Debug-Dev */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon$(CONFIG_BUNDLE_ID_SUFFIX)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon$(BUNDLE_IDENTIFIER_SUFFIX)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BuildConfigs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.haiphung.BuildConfigs$(CONFIG_BUNDLE_ID_SUFFIX)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haiphung.BuildConfigs$(BUNDLE_IDENTIFIER_SUFFIX)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -344,14 +344,14 @@
 		2CED938F215DDC9100DBE3AA /* Distribution-Dev */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon$(CONFIG_BUNDLE_ID_SUFFIX)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon$(BUNDLE_IDENTIFIER_SUFFIX)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BuildConfigs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.haiphung.BuildConfigs$(CONFIG_BUNDLE_ID_SUFFIX)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haiphung.BuildConfigs$(BUNDLE_IDENTIFIER_SUFFIX)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -418,14 +418,14 @@
 		2CED93A7215E6F7400DBE3AA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon$(CONFIG_BUNDLE_ID_SUFFIX)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon$(BUNDLE_IDENTIFIER_SUFFIX)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BuildConfigs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.haiphung.BuildConfigs$(CONFIG_BUNDLE_ID_SUFFIX)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haiphung.BuildConfigs$(BUNDLE_IDENTIFIER_SUFFIX)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -498,14 +498,14 @@
 		2CED93A9215E6F9F00DBE3AA /* Debug-QA */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon$(CONFIG_BUNDLE_ID_SUFFIX)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon$(BUNDLE_IDENTIFIER_SUFFIX)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BuildConfigs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.haiphung.BuildConfigs$(CONFIG_BUNDLE_ID_SUFFIX)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haiphung.BuildConfigs$(BUNDLE_IDENTIFIER_SUFFIX)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -578,14 +578,14 @@
 		2CED93AB215E6FA300DBE3AA /* Debug-Staging */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon$(CONFIG_BUNDLE_ID_SUFFIX)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon$(BUNDLE_IDENTIFIER_SUFFIX)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BuildConfigs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.haiphung.BuildConfigs$(CONFIG_BUNDLE_ID_SUFFIX)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haiphung.BuildConfigs$(BUNDLE_IDENTIFIER_SUFFIX)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -658,14 +658,14 @@
 		2CED93AD215E6FA700DBE3AA /* Debug-Prod */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon$(CONFIG_BUNDLE_ID_SUFFIX)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon$(BUNDLE_IDENTIFIER_SUFFIX)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BuildConfigs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.haiphung.BuildConfigs$(CONFIG_BUNDLE_ID_SUFFIX)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haiphung.BuildConfigs$(BUNDLE_IDENTIFIER_SUFFIX)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -732,14 +732,14 @@
 		2CED93AF215E6FD400DBE3AA /* Distribution-QA */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon$(CONFIG_BUNDLE_ID_SUFFIX)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon$(BUNDLE_IDENTIFIER_SUFFIX)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BuildConfigs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.haiphung.BuildConfigs$(CONFIG_BUNDLE_ID_SUFFIX)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haiphung.BuildConfigs$(BUNDLE_IDENTIFIER_SUFFIX)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -806,14 +806,14 @@
 		2CED93B1215E6FD700DBE3AA /* Distribution-Staging */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon$(CONFIG_BUNDLE_ID_SUFFIX)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon$(BUNDLE_IDENTIFIER_SUFFIX)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BuildConfigs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.haiphung.BuildConfigs$(CONFIG_BUNDLE_ID_SUFFIX)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haiphung.BuildConfigs$(BUNDLE_IDENTIFIER_SUFFIX)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -880,14 +880,14 @@
 		2CED93B3215E6FD900DBE3AA /* Distribution-Prod */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon$(CONFIG_BUNDLE_ID_SUFFIX)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon$(BUNDLE_IDENTIFIER_SUFFIX)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BuildConfigs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.haiphung.BuildConfigs$(CONFIG_BUNDLE_ID_SUFFIX)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haiphung.BuildConfigs$(BUNDLE_IDENTIFIER_SUFFIX)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
