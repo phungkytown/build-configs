@@ -11,6 +11,7 @@
 		2C3D1EA421615975002D8167 /* Environment-QA.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2C3D1EA321615975002D8167 /* Environment-QA.plist */; };
 		2C3D1EA6216159C6002D8167 /* Environment-Staging.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2C3D1EA5216159C6002D8167 /* Environment-Staging.plist */; };
 		2C3D1EA8216159F6002D8167 /* Environment-Prod.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2C3D1EA7216159F6002D8167 /* Environment-Prod.plist */; };
+		2CBA50D92167C4CC00E30DCB /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBA50D82167C4CC00E30DCB /* Environment.swift */; };
 		2CED937F215DDC9100DBE3AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CED937E215DDC9100DBE3AA /* AppDelegate.swift */; };
 		2CED9381215DDC9100DBE3AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CED9380215DDC9100DBE3AA /* ViewController.swift */; };
 		2CED9384215DDC9100DBE3AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CED9382215DDC9100DBE3AA /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 		2C3D1EA321615975002D8167 /* Environment-QA.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Environment-QA.plist"; sourceTree = "<group>"; };
 		2C3D1EA5216159C6002D8167 /* Environment-Staging.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Environment-Staging.plist"; sourceTree = "<group>"; };
 		2C3D1EA7216159F6002D8167 /* Environment-Prod.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Environment-Prod.plist"; sourceTree = "<group>"; };
+		2CBA50D82167C4CC00E30DCB /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
 		2CED937B215DDC9100DBE3AA /* BuildConfigs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuildConfigs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CED937E215DDC9100DBE3AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CED9380215DDC9100DBE3AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				2CED938A215DDC9100DBE3AA /* Info.plist */,
 				2C3D1EA921615A2E002D8167 /* Environments */,
 				2CED93BA215E807E00DBE3AA /* Build Configurations */,
+				2CBA50D82167C4CC00E30DCB /* Environment.swift */,
 			);
 			path = BuildConfigs;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CED9381215DDC9100DBE3AA /* ViewController.swift in Sources */,
+				2CBA50D92167C4CC00E30DCB /* Environment.swift in Sources */,
 				2CED937F215DDC9100DBE3AA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
